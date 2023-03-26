@@ -19,7 +19,7 @@ const Header = () => {
       <LinkContainer to="/introduce">
       <Nav.Link className='text-light'>About</Nav.Link>
       </LinkContainer>
-      <LinkContainer to="/about">
+      <LinkContainer to="/contact">
       <Nav.Link className='text-light'>Contact</Nav.Link>
       </LinkContainer>
       <LinkContainer to="/skill">

@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route,HashRouter} from "react-router-dom";
 import Introduce from './component/Introduce';
 import Skills from './component/Skills';
 import Certificate from './component/Certificate';
+import Contact from './component/Contact';
 function App() {
   return (
    <>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/introduce" element={<Introduce />}></Route>
         <Route path="/skill" element={<Skills />}></Route>
         <Route path="/cer" element={<Certificate/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
        
 
       </Routes>

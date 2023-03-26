@@ -5,6 +5,7 @@ import Introduce from './Introduce'
 import Header from './Header'
 import Skills from './Skills'
 import Certificate from './Certificate'
+import Contact from './Contact'
 const Home = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const Home = () => {
 <div className="container pt-5">
   <div className="d-flex flex-md-row flex-column-reverse ">
     <div className='w-50 m-auto'>
-      <h1>Hi</h1>
+      <h1>Hi! I Am</h1>
       <h1>ABHISHEK KUMAR</h1>
       <h2>Developer</h2>
     </div>
@@ -28,6 +29,8 @@ const Home = () => {
 <Skills/>
 {/* certificate */}
 <Certificate/>
+{/* contact */}
+<Contact/>
     </div>
     </>
   )
