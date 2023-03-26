@@ -1,0 +1,13 @@
+h1,h2{
+    color:#c27fcd;
+    
+}
+img{
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #999;
+}
+.intro{
+    background-color: #151024;
+    color: white;
+}
