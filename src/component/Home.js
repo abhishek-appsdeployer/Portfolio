@@ -4,6 +4,7 @@ import dev from "../Images/dev.jfif"
 import Introduce from './Introduce'
 import Header from './Header'
 import Skills from './Skills'
+import Certificate from './Certificate'
 const Home = () => {
   return (
     <>
@@ -17,7 +18,7 @@ const Home = () => {
       <h2>Developer</h2>
     </div>
     <div>
-      <img src={dev} alt="" />
+      <img className='devimg' src={dev} alt="" />
     </div>
   </div>
 </div>
@@ -25,6 +26,8 @@ const Home = () => {
 <Introduce/>
 {/* skill */}
 <Skills/>
+{/* certificate */}
+<Certificate/>
     </div>
     </>
   )
