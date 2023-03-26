@@ -7,6 +7,7 @@ import Introduce from './component/Introduce';
 import Skills from './component/Skills';
 import Certificate from './component/Certificate';
 import Contact from './component/Contact';
+import Resumes from './component/Resumes';
 function App() {
   return (
    <>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/skill" element={<Skills />}></Route>
         <Route path="/cer" element={<Certificate/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
+        <Route path="/resume" element={<Resumes/>}></Route>
        
 
       </Routes>

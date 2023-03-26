@@ -6,6 +6,7 @@ import Header from './Header'
 import Skills from './Skills'
 import Certificate from './Certificate'
 import Contact from './Contact'
+import Resumes from './Resumes'
 const Home = () => {
   return (
     <>
@@ -31,6 +32,8 @@ const Home = () => {
 <Certificate/>
 {/* contact */}
 <Contact/>
+{/* Resume */}
+<Resumes/>
     </div>
     </>
   )

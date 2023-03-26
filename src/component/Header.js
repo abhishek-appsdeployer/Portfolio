@@ -28,6 +28,10 @@ const Header = () => {
       <LinkContainer to="/cer">
       <Nav.Link className='text-light'>Certification</Nav.Link>
       </LinkContainer>
+
+      <LinkContainer to="/resume">
+      <Nav.Link className='text-light'>Resume</Nav.Link>
+      </LinkContainer>
     </Nav>
   </Navbar.Collapse>
     </Container>
