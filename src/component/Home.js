@@ -33,7 +33,7 @@ const Home = () => {
 {/* contact */}
 <Contact/>
 {/* Resume */}
-<Resumes/>
+{/* <Resumes/> */}
     </div>
     </>
   )

@@ -10,7 +10,7 @@ const Header = () => {
     <Navbar className='text-light' fixed='top' collapseOnSelect expand="lg" style={{backgroundColor: 'navy'}}  variant="">
     <Container className='text-light '>
       <Navbar.Brand href="#home" className='text-light brand'>Developer</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" className=' bg-success' />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" className=' bg-info' />
       <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
         <LinkContainer to="/">
